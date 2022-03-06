@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Timetable</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="main">
+        <div class="label">
+            <label for="">Region</label>
+            <select id="regions" name="City">
+                <option value="Yangon">Yangon</option>
+                <option value="Mandalay">Mandalay</option>
+                <option value="Bagon">Bagon</option>
+                <option value="Ayeyarwaddy">Ayeyarwaddy</option>
+                <option value="Magway">Magway</option>
+                <option value="Sagaing">Sagaing</option>
+                <option value="Tanintharyi">Tanintharyi</option>
+                <option value="Mawlamyine">Mawlamyine</option>
+                <option value="Kayin">Kayin</option>
+                <option value="Kayah">Kayah</option>
+                <option value="Kachin">Kachin</option>
+                <option value="Chin">Chin</option>
+                <option value="Rakhine">Rakhine</option>
+                <option value="Shan">Shan</option>
+              </select>
+              <input type="submit" id="btn">
+        </div>
+        <div class="timetable">
+            <h1>This is <span id="answer">Yangon</span> Time Table.</h1>
+            <table id="yangon">
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><p id="details"><span id="A_date">1</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">2</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">3</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">4</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">5</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                </tr>
+                <tr>
+                    <td><p id="details"><span id="A_date">6</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">7</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">8</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">9</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">10</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">11</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">12</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                </tr>
+                <tr>
+                    <td><p id="details"><span id="A_date">13</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">14</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">15</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">16</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">17</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">18</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">19</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                </tr>
+                <tr>
+                    <td><p id="details"><span id="A_date">20</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">21</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">22</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">23</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">24</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">25</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">26</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                </tr>
+                <tr>
+                    <td><p id="details"><span id="A_date">27</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">28</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">29</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date">30</span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td><p id="details"><span id="A_date"></span><span id="E_date">20</span></p>  <p id="details_time"><span class="sehri">Sehri - 4:00AM</span><span class="iftari">Iftari - 6:00PM</span></p></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
